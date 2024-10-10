@@ -70,9 +70,27 @@ kubectl get pods
 ```sh
 kubectl get services
 ```
-Usage
-Access the Chatbot Application:
+### Usage  
+Access the Chatbot Application:  
+Open your web browser and navigate to the external IP of the chatbot-service service.  
+The external IP can be obtained using:  
+```sh
+kubectl get services
+```
+Minikube: 
+```sh
+minikube service chatbot-service --url
+```
+**Interact with the Chatbot:**  
+Enter your name and follow the conversation flow.  
 
-Open your web browser and navigate to the external IP of the chatbot-service service.
-The external IP can be obtained using:
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+**License**  
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+**Contact**  
+For any questions or support, please contact  shayguedj1@gmail.com .
+
 
