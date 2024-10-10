@@ -43,3 +43,22 @@ The chatbot application is designed to demonstrate a DevOps project. It includes
 - Docker
 - Kubernetes (Minikube or a Kubernetes cluster)
 - kubectl
+
+## Setup
+
+### Docker
+
+1. **Build the Docker Image**:
+```sh
+docker build -t sharagon1/chatbot:latest .
+```
+Push the Docker Image to Docker Hub:
+```sh
+docker push sharagon1/chatbot:latest
+```
+Kubernetes
+
+Apply Kubernetes Configurations:
+
+
+kubectl apply -f k8s/
