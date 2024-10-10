@@ -25,7 +25,6 @@ The chatbot application is designed to demonstrate a DevOps project. It includes
 - Storage of messages in a PostgreSQL database.
 - Caching of messages in Redis.
 - Sending messages to a RabbitMQ queue.
-- Display of previous users in the UI.
 
 ## Technologies
 
