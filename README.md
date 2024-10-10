@@ -58,7 +58,7 @@ docker push <YOUR-DOCKER-REPOSITORY:TAG>
 ```
 ### Kubernetes
 
-**Deploy the app on k8s** 
+**Deploy the app on k8s**  
 Apply Kubernetes Configurations:
 ```sh
 kubectl apply -f k8s/
