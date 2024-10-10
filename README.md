@@ -48,17 +48,31 @@ The chatbot application is designed to demonstrate a DevOps project. It includes
 
 ### Docker
 
-1. **Build the Docker Image**:
+**Build the Docker Image**:
 ```sh
-docker build -t sharagon1/chatbot:latest .
+docker build -t Dockerfile .
 ```
 Push the Docker Image to Docker Hub:
 ```sh
-docker push sharagon1/chatbot:latest
+docker push <YOUR-DOCKER-REPOSITORY:TAG>
 ```
-Kubernetes
+### Kubernetes
 
+**Deploy the app on k8s**
 Apply Kubernetes Configurations:
-
-
+```sh
 kubectl apply -f k8s/
+```
+Verify the Deployment:
+```sh
+kubectl get pods
+```
+```sh
+kubectl get services
+```
+Usage
+Access the Chatbot Application:
+
+Open your web browser and navigate to the external IP of the chatbot-service service.
+The external IP can be obtained using:
+
