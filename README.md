@@ -12,7 +12,6 @@ This repository contains the code for a chatbot application that interacts with 
   - [Docker](#docker)
   - [Kubernetes](#kubernetes)
 - [Usage](#usage)
-- [Endpoints](#endpoints)
 - [Contributing](#contributing)
 - [License](#license)
 
